@@ -121,6 +121,6 @@ public class Unit2 {
      */
     public static double powerOf(double base, double exponent) {
         // TODO: Implement this method using Math.pow
-        return 0.0;
+        return Math.pow(base, exponent);
     }
 }
