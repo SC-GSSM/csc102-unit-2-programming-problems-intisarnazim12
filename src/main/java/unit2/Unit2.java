@@ -96,7 +96,7 @@ public class Unit2 {
      */
     public static int getAbsoluteValue(int number) {
         // TODO: Implement this method using Math.abs
-        return 0;
+        return Math.abs(number);
     }
 
     /**
