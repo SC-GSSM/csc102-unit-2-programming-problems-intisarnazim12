@@ -62,7 +62,7 @@ public class Unit2 {
         if (str == null) {
             return 0;
         }
-        return str.length;
+        return str.length();
     }
 
     /**
