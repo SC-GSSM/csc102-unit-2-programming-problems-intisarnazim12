@@ -72,7 +72,7 @@ public class Unit2 {
      */
     public static int roundValue(double value) {
         // TODO: Implement this method using Math.round
-        return 0;
+        return (int) Math.round(value);
     }
 
     /**
@@ -84,7 +84,9 @@ public class Unit2 {
      */
     public static String getSubstring(String str, int beginIndex, int endIndex) {
         // TODO: Implement this method using String.substring
-        return null;
+       if (str == null) {
+        return null; 
+       } return str.substring(beginIndex, endIndex);
     }
 
     /**
