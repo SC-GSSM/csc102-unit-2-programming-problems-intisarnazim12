@@ -108,7 +108,9 @@ public class Unit2 {
      */
     public static String replaceCharacter(String str, char oldChar, char newChar) {
         // TODO: Implement this method using String.replace
+       if (str == null) {
         return null;
+       } return str.replace(oldChar, newChar);
     }
 
     /**
