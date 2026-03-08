@@ -49,7 +49,7 @@ public class Unit2 {
      */
     public static int findMax(int num1, int num2) {
         // TODO: Implement this method using Math.max
-        return 0;
+        return Math.max(num1, num2);
     }
 
     /**
