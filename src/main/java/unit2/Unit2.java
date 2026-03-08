@@ -15,7 +15,7 @@ public class Unit2 {
      */
     public static String concatenateStrings(String str1, String str2) {
         // TODO: Implement this method using String concatenation
-        return null;
+        return str1 + str2;
     }
 
     /**
@@ -25,7 +25,7 @@ public class Unit2 {
      */
     public static double calculateSquareRoot(double number) {
         // TODO: Implement this method using Math.sqrt
-        return 0.0;
+        return Math.sqrt(number);
     }
 
     /**
@@ -35,7 +35,10 @@ public class Unit2 {
      */
     public static String toUpperCase(String str) {
         // TODO: Implement this method using String.toUpperCase
+       if (str == null) {
         return null;
+       }
+        return str.toUpperCase();
     }
 
     /**
